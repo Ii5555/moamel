@@ -25,10 +25,10 @@ from telethon.tl.functions.users import GetFullUserRequest
 from youtubesearchpython import VideosSearch
 
  
-fotoplay = "https://telegra.ph/file/b6402152be44d90836339.jpg"
-ngantri = "https://telegra.ph/file/b6402152be44d90836339.jpg"
+fotoplay = "https://telegra.ph/file/68a7ca5269cc0144832af.jpg"
+ngantri = "https://telegra.ph/file/68a7ca5269cc0144832af.jpg"
 from R0R77 import call_py, R0R77, client as Client
-owner = "5436803127"
+owner = "1785930603"
 from R0R77.helpers.yt_dlp import bash
 from R0R77.helpers.chattitle import CHAT_TITLE
 from R0R77.helpers.queues import (
@@ -248,7 +248,7 @@ async def vc_end(event, perm):
 @R0R77.on(events.NewMessage(pattern="^[?!/]فيديو"))
 async def vplay(event):
     if Config.HEROKU_MODE == "ENABLE":
-        await event.reply("- لا يمكنك استخدام هذا الامر لانك تستخدم هيروكو في التنصيب")
+        await event.reply("- مايصير فيديو عيني تعلك قناتك وتطير")
         return
     title = ' '.join(event.text[6:])
     replied = await event.get_reply_message()
